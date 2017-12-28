@@ -31,3 +31,4 @@ engine = create_engine(connect_str)
 # load data to tables in db
 df_mat.to_sql('student_mat', engine)
 df_por.to_sql('student_por', engine)
+print('Data successfully loaded to {}'.format(args.db_name))
