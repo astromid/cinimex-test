@@ -1,4 +1,7 @@
-import numpy as np
+"""
+Класс-обертка, реализующий загрузку данных, тренировку, и сохранение и загрузку ранее обученной модели,
+а также использование модели для предсказаний. Используется сервером в task4.py.
+"""
 import pandas as pd
 import os
 from catboost import CatBoostRegressor

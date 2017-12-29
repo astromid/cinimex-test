@@ -1,3 +1,6 @@
+"""
+Сервер на Flask, реализующий получение предсказаний, тренировку и удаление модели.
+"""
 import os
 import pandas as pd
 from flask import Flask, jsonify, request
